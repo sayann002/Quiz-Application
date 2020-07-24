@@ -1,0 +1,198 @@
+:root{
+    background: linear-gradient(to right, rgb(221, 75, 211), rgb(10, 156, 158));
+    font-size: 62.5%;
+}
+
+* {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+  }
+h1,
+h2,
+h3,
+h4 {
+  margin-bottom: 1rem;
+}
+h1 {
+    font-size: 5.4rem;
+    color: black;
+    margin-bottom: 5rem;
+  }
+  
+  h1 > span {
+    font-size: 2.4rem;
+    font-weight: 500;
+  }
+  
+  h2 {
+    font-size: 3rem;
+   /* margin-top: 7rem;*/
+    margin-bottom: 2.5rem;
+    font-weight: 500;
+    font-style: italic;
+  }
+  h3 {
+    font-size: 2.8rem;
+    font-weight: 500;
+  }
+    
+.container{
+   /* text-align: center;*/
+    width: 100vw;
+    height: 100vh;
+   /* width: 100%;*/
+    /*margin-left: 0px;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 80rem;
+    margin: 0 auto;
+    padding: 2rem;
+}
+/*
+.container > * {
+  width: 100%;
+}
+*/
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-center {
+  justify-content: center;
+  align-items: center;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.text-center {
+  text-align: center;
+}
+.hidden{
+  display: none;
+}
+
+/*
+.btn{
+    margin-bottom: 15px;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 2.5rem;
+    background-color: violet;
+    padding: 20px;
+    width: 100%;
+    border: 2.5px solid black;
+    border-radius: 15px;
+    cursor: pointer;
+    /*box-shadow: 10px 10px 5px rgba(10, 6, 51, 0.5);*/
+/*    
+}
+*/
+.btn {
+  font-size: 1.8rem;
+  font-style: italic;
+  font-weight: bold;
+  padding: 1.2rem;
+  width: 20rem;
+  text-align: center;
+  border: 2.2px solid black;
+  border-radius: 10px;
+  margin-bottom: 1rem;
+  background-color: violet;
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+}
+
+.btn:hover{
+    background-color: greenyellow;
+    /*transition: background-color 0.4s;*/
+    transition: 0.4s;
+    /*transform: translateY(-0.2rem);*/
+    transform: scale(1.06);
+    box-shadow: 10px 10px 5px rgba(10, 6, 51, 0.5);
+    
+}
+
+.game{
+  text-decoration: none;
+  
+}
+
+.score{
+    text-decoration: none;
+  
+}
+#saveScoreBtn[disabled]:hover {
+    cursor: not-allowed;
+    box-shadow: none;
+    transform: none;
+  }
+
+  #heading{
+    margin-bottom: 60px;
+  }
+
+  /* FORMS */
+  #username {
+  font-size: 1.8rem;
+  font-style: italic;
+  font-weight: bold;
+  padding: 1rem;
+  width: 20rem;
+  text-align: center;
+  border: 2.2px solid black;
+  border-radius: 15px;
+  margin-bottom: 1rem;
+  background-color: violet;
+  text-decoration: none;
+  color: black;
+  }
+  #username:hover{
+    box-shadow: 5px 5px 5px rgba(10, 6, 51, 0.5);;
+  }
+
+  #saveScoreBtn {
+  font-size: 1.8rem;
+  font-style: italic;
+  font-weight: bold;
+  padding: 1rem;
+  width: 20rem;
+  text-align: center;
+  border: 2.2px solid black;
+  border-radius: 15px;
+  margin-bottom: 1rem;
+  background-color: violet;
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+  }
+  .btn-class{
+    margin-bottom: 12px;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 2.2rem;
+    background-color: violet;
+    padding: 17px;
+    width: 90%;
+    border: 2.5px solid black;
+    border-radius: 15px;
+    cursor: pointer;
+  }
+  .btn-class:hover{
+    background-color: greenyellow;
+    /*transition: background-color 0.4s;*/
+    transition: 0.4s;
+    /*transform: translateY(-0.2rem);*/
+    transform: scale(1.06);
+    box-shadow: 10px 10px 5px rgba(10, 6, 51, 0.5);
+    
+  }
+
+ 
